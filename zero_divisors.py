@@ -1,4 +1,5 @@
 # Zero Divisors
+from utils import *
 
 def zero_divisors(set_,modulo):
     for i in range(1,len(set_)):

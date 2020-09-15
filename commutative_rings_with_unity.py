@@ -1,5 +1,4 @@
-def multmod(x,y,z):
-    return (x*y)%z
+from utils import *
 
 def mul_iden(set_ , modulo):
     for i in range(0,len(set_)):
@@ -10,7 +9,7 @@ def mul_iden(set_ , modulo):
                 break
         if yes:
             iden = set_[i]
-            print("M.I = {}".format(iden))
+            print("Unity = {}".format(iden))
             return iden
     print("No Inverse")
     return None

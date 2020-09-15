@@ -11,6 +11,6 @@ def mul_iden(set_ , modulo):
         if yes:
             iden = set_[i]
             print("M.I = {}".format(iden))
-            return
+            return iden
     print("No Inverse")
-
+    return None

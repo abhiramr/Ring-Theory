@@ -23,7 +23,8 @@ def mult_invertible(set_, modulo):
                 if multmod(set_[j],set_[i],modulo) == e:
                     yes = True
                     break
-        if yes == False:
-            print("Not every non-zero element has a multiplicative inverse")
-        else:
-            print("Every element has a multiplicative inverse")
+            if yes == False:
+                print("Not every non-zero element has a multiplicative inverse")
+                return
+    if not yes:
+        print("Every element has a multiplicative inverse")

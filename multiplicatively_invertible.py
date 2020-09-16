@@ -1,4 +1,7 @@
 # MULTIPLICATIVE INVERSE
+  
+def multmod(x,y,z):
+    return (x*y)%z
 
 def mul_iden(set_ , modulo):
     for i in range(0,len(set_)):

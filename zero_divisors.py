@@ -10,7 +10,7 @@ def zero_divisors(set_,modulo):
                 yes = False
                 break
         if yes == False:
-            print("False for No Zero Divisors. Zero divisors exist so the given ring is not an integral domain")
+            print("Zero divisors exist so the given ring is not an integral domain")
             return
     if yes:
-        print("True for No Zero Divisors. No zero divisors exist so the given ring is an Integral domain")
+        print("No zero divisors exist so the given ring is an Integral domain")

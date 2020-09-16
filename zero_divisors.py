@@ -1,5 +1,6 @@
 # Zero Divisors
-from utils import *
+def multmod(x,y,z):
+    return (x*y)%z
 
 def zero_divisors(set_,modulo):
     for i in range(1,len(set_)):

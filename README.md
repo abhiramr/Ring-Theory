@@ -41,7 +41,7 @@ Every element has a multiplicative inverse
 ```
 mult_invertible([0,1,2,3,4,5],6)
 Unity = 1
-Every element has a multiplicative inverse
+Not every non-zero element has a multiplicative inverse
 ```
 
 ```
@@ -53,7 +53,7 @@ Every element has a multiplicative inverse
 ```
 mult_invertible([0,1,2,3],4)
 Unity = 1
-Every element has a multiplicative inverse
+Not every non-zero element has a multiplicative inverse
 ```
 
 ```
